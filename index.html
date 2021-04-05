@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Video Game Landing Page</title>
+  <link rel="icon" href="./images/W3RL.png">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/7e38169734.js" crossorigin="anonymous"></script>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-top-fixed/">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Body -->
+
+  <!-- title Section-->
+  <div id="navbar">
+  <a href="#title">WARCRAFT</a>
+  <a href="#features">Características</a>
+  <a href="#reviews">Reseñas</a>
+  <a href="#download">Descargar</a>
+  <a href="#footer">Síguenos</a>
+</div>
+
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#title">Warcraft</a>
+          <a class="navbar-brand" href="#features">Características</a>
+          <a class="navbar-brand" href="#reviews">Reseñas</a>
+          <a class="navbar-brand" href="#download">Descarga</a>
+          <a class="navbar-brand" href="#footer">Síguenos</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+
+      <!-- Title -->
+      <video class="video" src="./images/W3RV.mp4" autoplay muted loop></video>
+      <img class="logo" src="./images/W3RL.png" alt="">
+      <div class="overlay"></div>
+      <div class="text">
+        <h1>Forja el Destino</h1>
+        <h2>Del Mundo de Warcraft</h2>
+      </div>
+
+    </div>
+  </section>
+  <!-- features -->
+  <section id="features">
+    <!-- cards -->
+    <div class="card-deck">
+      <div class="card text-white bg-dark" style="width: 18rem;">
+        <img src="./images/human.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">AZEROTH RENACIDO</h5>
+          <p class="card-text">Hemos reconstruido cada héroe, unidad, edificio y entorno de Warcraft III por completo. ¡Azeroth como nunca antes lo habías visto!</p>
+        </div>
+      </div>
+      <div class="card text-white bg-dark" style="width: 18rem;">
+        <img src="./images/map.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ORÍGENES DE WARCRAFT</h5>
+          <p class="card-text">Lidera a los orcos y los humanos entre alianzas que cambian y chocan en un conflicto despiadado.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-dark" style="width: 18rem;">
+        <img src="./images/orc.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">EL CAMPO DE BATALLA ESPERA</h5>
+          <p class="card-text">Recluta a poderosos héroes para que lideren a tus tropas y enfréntate a tus enemigos en el campo de batalla.</p>
+        </div>
+      </div>
+      <div class="card text-white bg-dark" style="width: 18rem;">
+        <img src="./images/undead.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PARTIDAS SIN LÍMITE</h5>
+          <p class="card-text">Descubre millones de partidas creadas por los jugadores, incluidas partidas tipo tower defense, MOBA, ARPG, supervivencia y mucho más.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <button type="button" class="btn btn-primary btn-lg news-button" href="https://news.blizzard.com/es-es/warcraft3">WARCRAFT NEWS</button> -->
+    <a href="https://news.blizzard.com/es-es/warcraft3" class="btn btn-primary btn-lg news-button" role="button">WARCRAFT NEWS</a>
+
+  </section>
+  <!-- reviews -->
+  <section id="reviews">
+    <!-- carousel -->
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+          <h1>Nerf Paladins please.</h1>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+          <img class="review-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/dcrq0jp-3993c767-646f-4e0a-ad18-2b864f3cd73d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNDZiNjNkM2MtYWU2Ny00NjRjLTlhMzctNjcwODI5YjJhMTU3XC9kY3JxMGpwLTM5OTNjNzY3LTY0NmYtNGUwYS1hZDE4LTJiODY0ZjNjZDczZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.6NM0_eSshdSo3nPtWcf1KzIVKsrdiW7OluknsfELREk" alt="./images/arthas.jpg">
+          <em>A noob, IGN </em>
+
+        </div>
+        <div class="carousel-item">
+
+          <h1>For The HORDE!</h1>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</h2>
+          <img class="review-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa905e08-e78e-4479-b3a9-81d4c444ce69/d8qnhb1-4ba84327-e213-4405-84ac-7d2718fc607a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYWE5MDVlMDgtZTc4ZS00NDc5LWIzYTktODFkNGM0NDRjZTY5XC9kOHFuaGIxLTRiYTg0MzI3LWUyMTMtNDQwNS04NGFjLTdkMjcxOGZjNjA3YS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.sdwRmM6m-s8GQ5BcoKOpzWnPVdNAb0pM_h2L59hwWtk" alt="./images/arthas.jpg">
+          <em>A pro, IGN </em>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+  <!-- Download -->
+  <section id="download">
+
+  <div class="trailer">
+    <h1 class="download-text">Cinematic Trailer</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/72UbFQO5-m0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <div class="download-button">
+    <h2 class="download-text"><a href="#download"></a> DONWLOAD NOW!</h2>
+    <a href="https://news.blizzard.com/es-es" class="btn btn-primary btn-lg download-button" role="button">DOWNLOAD</a>
+  </div>
+
+  </section>
+  <!-- footer -->
+  <section id="footer">
+
+    <a href="#"><i class="footer-icon fab fa-twitter fa-2x"></i></a>
+    <a href="#"><i class="footer-icon fab fa-facebook-f fa-2x"></i></a>
+    <a href="#"><i class="footer-icon fab fa-instagram fa-2x"></i></a>
+    <a href="#"><i class="footer-icon fas fa-envelope fa-2x"></i></a>
+
+    <p>© Copyright 2021 Blizzard</p>
+
+  </section>
+
+  <script src="./App.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+
+</body> <!-- End Of the Body -->
+
+</html>

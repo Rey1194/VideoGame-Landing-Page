@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+  font-family: 'Merriweather';
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* background-image: linear-gradient(#252525, #f4f5db); */
+  opacity: 0.9;
+  z-index: 100;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.navbar{
+  position: relative;
+  z-index: 10;
+}
+.video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;
+}
+.logo{
+  position: relative;
+  z-index: 10;
+  padding: 0 20em;
+}
+.text{
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+.text h2{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h1{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform:uppercase;
+}
+/*Features Section*/
+#features{
+  margin-top: 245px;
+  padding: 7% 5%;
+  height: 100%;
+  background-image: url(http://elevatetoelite.com/wp-content/uploads/2016/01/Black-Gradient-Background.jpg);
+}
+.card{
+  height: 350px;
+  margin-top: -140px;
+}
+.news-button{
+  text-align: center;
+  margin: 2.5em 25em;
+}
+
+/*reviews*/
+#reviews {
+padding: 10% 15%;
+text-align: center;
+background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/02/analisis-warcraft-iii-reforged-1868217.jpg);
+}
+.carousel-item{
+  padding: 0 10%;
+}
+.review-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+#reviews h1{
+  color: #fff;
+}
+#reviews h2{
+  color: #fff;
+}
+#reviews em{
+  color: #fff;
+}
+/*Download*/
+#download{
+  background-image: url(https://images3.alphacoders.com/963/thumb-1920-963948.png);
+  opacity: 0.8;
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+.download-text{
+  color: #fff;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.trailer h1{
+  font-size: 5.5em;
+  font-weight: 700px;
+}
+.donwload-video{
+  text-align: left;
+  width: 1080px;
+  height: 550px;
+}
+.download-button{
+  text-align: center;
+}
+/*Footer*/
+#footer{
+  padding: 7% 5%;
+  height: 100%;
+  text-align: center;
+  background-image: url(http://elevatetoelite.com/wp-content/uploads/2016/01/Black-Gradient-Background.jpg);
+}
+#footer p{
+  color: #fff;
+}
+.footer-icon{
+  padding: 2% 1.5%;
+}
